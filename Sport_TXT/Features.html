@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Features</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .header-logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #1d9bf0;
+        }
+        .hero {
+            background: url('hero-image.jpg') no-repeat center center/cover;
+            height: 400px;
+            color: white;
+        }
+        .hero h1 {
+            font-size: 48px;
+        }
+        .hero h1 span {
+            color: #ff2e63;
+        }
+        .features-section {
+            background: #f8f9fa;
+            padding: 50px 0;
+        }
+        .feature-box {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 6px 9px rgba(0, 0, 0, 0.5);
+            padding: 30px;
+            transition: transform 0.3s;
+        }
+        .feature-box:hover {
+            transform: translateY(-10px);
+        }
+        .feature-box img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .footer {
+            background: #1d9bf0;
+            color: white;
+            padding: 20px 0;
+        }
+        .footer a {
+            color: white;
+            text-decoration: none;
+        }
+        .social-media a img {
+            width: 24px;
+            margin-right: 10px;
+            position: relative;
+            left: 190px;
+        }
+        .logo {
+            position: relative;
+        }
+
+        .logo img {
+            width: 200px;
+            position: relative;
+            top: 5px;
+            right: 150px;
+        }
+        .color {
+            color: black;
+        }
+        .nav .nav-link  {
+            font-weight: bold;
+            color: #1d9bf0 !important;
+        }
+        .button{
+            padding: 15px 30px;
+            background-color: #1d9bf0;
+            border: none;
+            text-decoration: none;
+            border-radius: 18px;
+            color: white;
+            display: inline-block;
+            font-family: sans-serif;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<header class="bg-transparent">
+    <div class="container d-flex justify-content-between align-items-center py-3">
+        <div class="logo">
+            <img src="Images/SportsTXT.png" alt="Logo design">
+        </div>
+        <nav>
+            <ul class="nav">
+                <li class="nav-item"><a class="nav-link text-dark" href="Homepage.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link text-dark" href="#">Features</a></li>
+                <li class="nav-item"><a class="nav-link text-dark" href="AboutUs.html">About Us</a></li>
+                <li class="nav-item"><a class="nav-link text-dark" href="Contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section class="hero text-center d-flex align-items-center justify-content-center">
+        <div class="container">
+            <h1 style="color: rgba(1, 92, 168, 1); font-size: 50px; font-weight: 400;">Features</h1>
+            <p style="color: black; font-size: 35px;">On <span style="color: red; font-size: 30px;">Sports</span><span style="color:rgba(1, 92, 168, 1); font-size: 30px;">TXT</span>, you'll find a great mix of features enabling sports clubs and athletes to connect directly with their fans.</p>
+        </div>
+    </section>
+
+    <section class="features-section container my-5">
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="feature-box">
+                    <img src="Images/Fanzone.png" alt="Fanzone">
+                    <h3 class="mt-3">Fanzone</h3>
+                    <p>Empower your supporters in the Fanzone, a moderated platform for interaction and involvement. Fans can create public and private subgroups for sharing content and building a supportive community. Enhance your organization's community engagement with the Fanzone.</p>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="feature-box">
+                    <img src="Images/video.png" alt="Video">
+                    <h3 class="mt-3">Video</h3>
+                    <p>Make your members feel special by offering them workouts, interviews, live matches, and even behind-the-scenes content. We support a range of video platforms, so you can easily upload videos from your phone.</p>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="feature-box">
+                    <img src="Images/Podcast.jpg" alt="Podcast">
+                    <h3 class="mt-3">Podcast</h3>
+                    <p>Weekly updates, interviews, or tip of the week? Record a podcast on your phone and share it with your community.</p>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="feature-box">
+                    <img src="Images/SMS.webp" alt="SMS">
+                    <h3 class="mt-3">SMS</h3>
+                    <p>Want to get your fans instantly involved with the latest updates? Send personalized SMS messages straight to your members' phones and show them that you value their membership.</p>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="feature-box">
+                    <img src="Images/photo.jpeg" alt="Photo">
+                    <h3 class="mt-3">Photo</h3>
+                    <p>Publish photos from games, training sessions or events. There's no limit to how much you choose to share. Make it more personal by adding emojis, customizing colors and including text. It's a great way to document and share all the big moments.</p>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="feature-box">
+                    <img src="Images/poll.jpg" alt="Polls">
+                    <h3 class="mt-3">Polls</h3>
+                    <p>Get real-time feedback from your fans. Ask questions and test their knowledge with our online quizzes and voting features.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta text-center text-white py-5" style="background-color: #ffffff;">
+        <h2 class="color">Build A Unified Community with <span style="color: red">Sports</span><span style="color: #1d9bf0;">TXT</span></h2>
+        <a href="#" class="button">Get in Touch</a>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container d-flex justify-content-between align-items-center">
+        <div class="logo" >
+            <img src="Images/SportsTXT.png" alt="Logo design" style="position: flex; right: 300px;">
+        </div>
+        <div class="footer-links">
+            <a href="#">About Us</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Privacy Policy</a>
+        </div>
+        <div class="social-media">
+            <a href="#"><img src="icons/tiktok.svg" alt="TikTok"></a>
+            <a href="#"><img src="icons/facebook.svg" alt="Facebook"></a>
+            <a href="#"><img src="icons/instagram.svg" alt="Instagram"></a>
+            <a href="#"><img src="icons/twitter.svg" alt="Twitter"></a>
+            <a href="#"><img src="icons/youtube.svg" alt="YouTube"></a>
+        </div>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

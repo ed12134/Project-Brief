@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-image: url("Images/aboutus.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        main {
+            flex: 1;
+        }
+
+        .header-logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #1d9bf0;
+        }
+
+        .about-us .container {
+            position: relative;
+            z-index: 1;
+        }
+
+        .about-us h1 {
+            font-size: 48px;
+        }
+
+        .about-us h1 span {
+            color: #ff2e63;
+        }
+
+        .cta {
+            background: #1d9bf0;
+            color: white;
+            padding: 50px 0;
+        }
+
+        .footer {
+            background: #1d9bf0;
+            color: white;
+            padding: 20px 0;
+        }
+
+        .footer a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .social-media a img {
+            width: 24px;
+            margin-right: 10px;
+            position: relative;
+            left: 190px;
+        }
+
+        .logo {
+            position: relative;
+        }
+
+        .logo img {
+            width: 200px;
+            position: relative;
+            top: 5px;
+            right: 150px;
+        }
+
+        .nav .nav-link {
+            font-weight: bold;
+            color: #1d9bf0 !important;
+        }
+        .button{
+            padding: 15px 40px;
+            background-color: white;
+            border: none;
+            text-decoration: none;
+            border-radius: 10px;
+            color: #007bff;
+            display: inline-block;
+            font-family: sans-serif;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<header class="bg-transparent">
+    <div class="container d-flex justify-content-between align-items-center py-3">
+        <div class="logo">
+            <img src="Images/SportsTXT.png" alt="Logo design">
+        </div>
+        <nav>
+            <ul class="nav">
+                <li class="nav-item"><a class="nav-link text-light" href="Homepage.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link text-light" href="Features.html">Features</a></li>
+                <li class="nav-item"><a class="nav-link text-light" href="#">About Us</a></li>
+                <li class="nav-item"><a class="nav-link text-light" href="Contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section class="about-us text-center d-flex align-items-center">
+        <div class="container">
+            <h1 style="position: relative; right: 80%; top:150px; text-justify: auto; font-size: 70px; color: white;">About</h1>
+            <p style="position: relative; top:150px; right: 38%; font-size: x-large; text-align: left; line-height: 1.6; color: white;">SportsTXT is an initiative from NMS Productions BV, a division of New Media Services, a global company specializing in delivering intelligent outsourcing services through a combination of machine learning and human-powered activities. From fans to brands to individual content creators, NMSP designs and builds collaborative online platforms for our users to communicate, connect, learn, and share.</p>
+            <h2 class="mt-4" style="position: relative; right: 45%; top: 390px; font-weight:50; font-size: 50px; 
+            color: white;">
+                Build A Unified Community with 
+                <span style="color: crimson; font-size: xxx-large;">Sports</span>
+                <span style="color:#1d9bf0; font-size: xxx-large;">TXT</span>
+            </h2>
+            <a href="#" class="button" style="position: relative; right: 79%; top: 400px; z-index: 2;">Get in Touch</a>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container d-flex justify-content-between align-items-center">
+        <div class="logo">
+            <img src="Images/SportsTXT.png" alt="Logo design" style="position: flex; right: 300px;">
+        </div>
+        <div class="footer-links">
+            <a href="#">About Us</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Privacy Policy</a>
+        </div>
+        <div class="social-media">
+            <a href="#"><img src="icons/tiktok.svg" alt="TikTok"></a>
+            <a href="#"><img src="icons/facebook.svg" alt="Facebook"></a>
+            <a href="#"><img src="icons/instagram.svg" alt="Instagram"></a>
+            <a href="#"><img src="icons/twitter.svg" alt="Twitter"></a>
+            <a href="#"><img src="icons/youtube.svg" alt="YouTube"></a>
+        </div>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
